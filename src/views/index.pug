@@ -1,6 +1,11 @@
 extends layout
 
 block content 
+    div(class="ui icon message winter-sale-banner")
+      i(class="snowflake outline icon")
+      div(class="content")
+        div(class="header") Winter Sale
+        p Winter sale -20% off on all items
     div(class="ui attached segment")
       div(class="ui divided items")
         each album in albums
